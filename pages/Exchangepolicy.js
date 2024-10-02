@@ -56,8 +56,9 @@ const Exchangepolicy = ({ headerFooter }) => {
               CONTACT US
             </p>
             <p className="w-2/4 mx-auto text-gray-900 font-normal tracking-wider text-center mb-4">
-              Please contact shopkinkifish@gmail.com for further <br />{" "}
-              assistance.
+              Please contact{" "}
+              <a href="mailto:hello@kinkifish.com">hello@kinkifish.com</a> for
+              further <br /> assistance.
             </p>
           </div>
         </div>

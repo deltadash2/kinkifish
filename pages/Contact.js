@@ -70,7 +70,9 @@ const Contact = ({ headerFooter }) => {
             <div className="w-16 border-t-2 border-t-gray-800"></div>
           </div>
           <div className="text-center py-7">
-            <span className="font-bold">contactus@kinkifish.com</span>
+            <span className="font-bold">
+              <a href="mailto:hello@kinkifish.com">hello@kinkifish.com</a>
+            </span>
           </div>
         </div>
 
@@ -82,7 +84,9 @@ const Contact = ({ headerFooter }) => {
             <div className="w-16 border-t-2 border-t-gray-800"></div>
           </div>
           <div className="text-center py-7">
-            <span className="font-bold">contactus@kinkifish.com</span>
+            <span className="font-bold">
+              <a href="mailto:hello@kinkifish.com">hello@kinkifish.com</a>
+            </span>
           </div>
         </div>
 
