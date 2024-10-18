@@ -25,7 +25,6 @@ const Shop = ({ headerFooter, products }) => {
     products.length - PUBLISHED_PRODUCTS_CNT
   );
 
-  const router = useRouter();
   const shopItems = [
     {
       id: 1,
