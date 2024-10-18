@@ -18,7 +18,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import Product from "@/MyComponents/Product";
 
-const PUBLISHED_PRODUCTS_CNT = 30;
+const PUBLISHED_PRODUCTS_CNT = 31;
 
 const Shop = ({ headerFooter, products }) => {
   const publishedProducts = products.slice(
