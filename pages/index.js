@@ -27,6 +27,7 @@ export default function Home({ headerFooter, products }) {
   return (
     <Layout headerFooter={headerFooter}>
       <DndProvider backend={MultiBackend} options={HTML5toTouch}>
+        <NewTop />
         <Productsbadgecustomizer
           customizedProduct={
             !isEmpty(products)
