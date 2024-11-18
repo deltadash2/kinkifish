@@ -72,6 +72,7 @@ const PrivacyPolicy = ({ headerFooter }) => {
               any time.
             </p>
           </div>
+
           <div className="text-center flex flex-col justify-center items-center mt-12">
             <p className="w-2/4 mx-auto text-black underline font-bold tracking-wider text-2xl text-center mb-4">
               Information Sharing
