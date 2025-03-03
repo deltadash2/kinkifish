@@ -78,13 +78,9 @@ const Header = ({ header }) => {
   return (
     <>
       <Head>
-        <title>{title || "KinkiFish | CONTEMPORARY MEETS COUTURE"}</title>
+        <title>{title || "KinkiFish"}</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="title"
-          property="og:title"
-          content={title || "KinkiFish | CONTEMPORARY MEETS COUTURE"}
-        />
+        <meta name="title" property="og:title" content={title || "KinkiFish"} />
         <meta name="type" property="og:type" content="website" />
         <meta
           name="image"
